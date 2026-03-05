@@ -5,7 +5,7 @@ const API_KEY = "AIzaSyCe5vrQox20KS4a-DcIBAdS6fHznrZDpcs";
 const VIEWS = { HOME: 'HOME', FACE_MAP: 'FACE_MAP', CLINICS: 'CLINICS', BRANDS: 'BRANDS', ALTERNATIVES: 'ALTERNATIVES' };
 
 // Replace this with your actual Google Form sharable link
-const LOGIN_FORM_URL = "YOUR_GOOGLE_FORM_LINK_HERE"; 
+const LOGIN_FORM_URL = "https://docs.google.com/forms/d/e/1FAIpQLSe8tcbr3H3493wgv9tC4bLl-KAvI0pdAtXEMwZ9s1dx0ZjiSg/viewform?usp=publish-editor"; 
 
 const BRAND_DATABASE = [
     { name: "Juvederm", manufacturer: "Allergan", logo: "https://logo.clearbit.com/allergan.com", fda: "Approved", longevity: "12-18 Months", description: "HA collection for volume and smoothing." },
@@ -172,4 +172,5 @@ function renderClinicDetails() {
 }
 
 document.addEventListener('DOMContentLoaded', () => { render(); });
+
 
