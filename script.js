@@ -172,6 +172,3 @@ function renderClinicDetails() {
 }
 
 document.addEventListener('DOMContentLoaded', () => { render(); });
-
-
-
